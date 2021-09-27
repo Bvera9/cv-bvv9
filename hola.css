@@ -1,0 +1,23 @@
+.contenedor {
+    display:flex;
+    border: 1px solid red;
+    flex-direction: column-reverse;
+}
+
+.start {
+    align-items: flex-start;
+}
+
+.end {
+    align-items: flex-end;
+}
+
+.hijo {
+    border: 1px solid lightgray;
+    width: 100px;
+    height: 100px;
+}
+
+.center {
+    align-items: center;
+}

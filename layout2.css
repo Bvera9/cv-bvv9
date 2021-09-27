@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 900px;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    border: 1px solid lightgray;
+}
+
+.cuadrado {
+    min-width: calc(25% - 10px);
+    height: 100px;
+    margin: 5px;
+    border: 1px solid lightgray;
+}
+
+.amarillo {
+    /*background-color: yellow;*/
+}
+
+.rojo {
+    /*background-color: red;*/
+}
+
+.verde {
+   /*background-color: green;*/
+}
+
+.azul {
+    /*background-color: blue;*/
+}
+
+.alto-300 {
+    height: 500px;
+}
+
+.alto-400 {
+    height: 400px;
+    background-color: blue;
+}
+
+.ancho-1-columna {
+    min-width: calc(25% - 10px);
+}
+
+.ancho-2-columnas {
+    min-width: calc(50% - 10px);
+}
+
+.ancho-3-columnas {
+    min-width: calc(75% - 10px);
+}
+
+.ancho-4-columnas {
+    min-width: calc(100% - 10px);
+}
+
+.ancho-5-columnas {
+    min-width: calc(150% - 10px);
+}
+
+.fondo-verde {
+    background-color: chartreuse;
+}
